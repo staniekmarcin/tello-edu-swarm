@@ -2,7 +2,7 @@
 
 Package of scripts to create Tello Edu Swarm
 
-## Configuration of Tello Edu
+## Configuration of Tello EDU
 
 Connect your PC to Tello EDU and run config_tello_swarm.py
 
