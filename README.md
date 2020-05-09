@@ -1,6 +1,6 @@
 # tello-edu-swarm
 
-Package of scripts to create Tello Edu Swarm
+Package of scripts to create Tello EDU Swarm
 
 ## Configuration of Tello EDU
 
