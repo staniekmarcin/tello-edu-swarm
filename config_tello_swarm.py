@@ -1,3 +1,4 @@
+# Tello Edu config script to connect to Access Point 
 import threading
 import socket
 import time
@@ -25,7 +26,7 @@ def send(message, delay):
 
   time.sleep(delay)
 
-# Receive the message from Tello
+# Receive the message from Tello EUD
 def receive():
   while True:
     try:
@@ -47,7 +48,7 @@ send("command", 3)
 send("battery?", 3) # Try this without send("ap SSID PASSWORD", 3) to check if connection works
 
 # send("ap SSID PASSWORD", 3) # Fill your Access Point credentials and uncomment
-# send("ap TP-Link_10C4 12333882", 3) # My Access Point credentials
+send("ap TP-Link_10C4 12333882", 3) # My Access Point credentials
 
 print("Config completed!")
 sock.close()
