@@ -25,6 +25,15 @@ python network_scan.py
 
 When you got your Tellos ready and identified you can modify commands_tello_swarm.txt file.
 Use commands from https://dl-cdn.ryzerobotics.com/downloads/Tello/Tello%20SDK%202.0%20User%20Guide.pdf
+e.g
+
+```
+battery?
+takeoff
+flip r
+land
+```
+
 Run one of tello_swarm.py scripts.
 
 ```
