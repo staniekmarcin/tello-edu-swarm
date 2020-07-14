@@ -68,7 +68,7 @@ for command in commands:
         command = command.rstrip()
         if command.find('delay') != -1:
             sec = float(command.partition('delay')[2])
-            print 'delay %s' % sec
+            print ('delay %s' % sec)
             time.sleep(sec)
             pass
         else:
